@@ -89,7 +89,7 @@ namespace Class8
                 Stopwatch sw = Stopwatch.StartNew();
                 ldlist?.Find(e);
                 sw.Stop();
-                Console.WriteLine($"на заполнение коллекции понадобилось {sw.ElapsedMilliseconds} миллисекуд");
+                Console.WriteLine($"на поиск элемента {e} понадобилось {sw.ElapsedMilliseconds} миллисекуд");
             }
         }
         #endregion
